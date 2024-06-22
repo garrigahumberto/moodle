@@ -178,7 +178,7 @@ function book_add_fake_block($chapters, $chapter, $book, $cm, $edit = null) {
     $toc = book_get_toc($chapters, $chapter, $book, $cm, $edit);
 
     $bc = new block_contents();
-    $bc->title = get_string('toc', 'mod_book');
+    $bc->title = $cm->name;
     $bc->attributes['class'] = 'block block_book_toc';
     $bc->content = $toc;
 

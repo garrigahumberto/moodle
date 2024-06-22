@@ -15,16 +15,12 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Book plugin version info
+ * Strings for component 'theme_hgboost', language 'es'
  *
- * @package    mod_book
- * @copyright  2004-2012 Petr Skoda {@link http://skodak.org}
+ * @package    theme_hgboost
+ * @category   string
+ * @copyright  2024 YOUR NAME <your@email.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die;
-
-$plugin->component = 'mod_book'; // Full name of the plugin (used for diagnostics)
-$plugin->version   = 2024061953; // The current module version (Date: YYYYMMDDXX).
-$plugin->requires  = 2024041600; // Requires this Moodle version.
-$plugin->cron      = 0;          // Period for cron to check this module (secs)
+defined('MOODLE_INTERNAL') || die();
